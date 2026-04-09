@@ -1,19 +1,10 @@
-function Home(){
-
-  return(
-
-    <section id="home">
-
-      <h2>Hello, I'm Mohamed</h2>
-
-      <p>
-        Data Analyst & Developer building scalable solutions
-      </p>
-
+function Home() {
+  return (
+    <section style={{ padding: "60px" }}>
+      <h1>Hi, I'm Baidaho Zanre</h1>
+      <p>IT Graduate | Desktop Publisher | Aspiring IT Support & Systems Professional</p>
     </section>
-
-  )
-
+  );
 }
 
 export default Home;
