@@ -1,8 +1,9 @@
 function App() {
+  console.log("APP IS RENDERING");
+
   return (
-    <div style={{ fontFamily: "Arial", padding: "20px" }}>
-      <h1>Welcome to My Portfolio 🚀</h1>
-      <p>This is my React portfolio website.</p>
+    <div style={{ padding: "40px", fontSize: "30px", color: "black" }}>
+      WELCOME TO MY PORTFOLIO
     </div>
   );
 }
