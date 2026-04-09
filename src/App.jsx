@@ -1,9 +1,13 @@
-function App() {
-  console.log("APP IS RENDERING");
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
 
+function App() {
   return (
-    <div style={{ padding: "40px", fontSize: "30px", color: "black" }}>
-      WELCOME TO MY PORTFOLIO
+    <div>
+      <Home />
+      <Projects />
+      <Contact />
     </div>
   );
 }
