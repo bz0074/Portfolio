@@ -1,19 +1,10 @@
-function Contact(){
-
-  return(
-
-    <section id="contact">
-
+function Contact() {
+  return (
+    <section style={{ padding: "60px" }}>
       <h2>Contact</h2>
-
-      <p>Email: you@email.com</p>
-
-      <p>LinkedIn: linkedin.com/in/yourprofile</p>
-
+      <p>Email: example@email.com</p>
     </section>
-
-  )
-
+  );
 }
 
 export default Contact;
