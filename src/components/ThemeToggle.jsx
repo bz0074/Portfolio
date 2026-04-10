@@ -1,10 +1,9 @@
 import { useState } from "react";
 
 function ThemeToggle() {
-
   const [dark, setDark] = useState(false);
 
-  function toggleTheme(){
+  function toggleTheme() {
     setDark(!dark);
     document.body.classList.toggle("dark");
   }
