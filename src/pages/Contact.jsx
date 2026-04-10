@@ -1,10 +1,9 @@
 function Contact() {
   return (
-    <section style={{ padding: "60px" }}>
+    <section id="contact" style={{ padding: "60px" }}>
       <h2>Contact</h2>
-      <p>Your name: What's your name</p>
-      <p>Your email: example@email.com</p>
-      <p>Your message: Enter your message</p>
+      <p>Email: example@email.com</p>
+      <p>Phone: +1 (000) 000-0000</p>
     </section>
   );
 }
