@@ -1,5 +1,17 @@
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
+import Header from "./components/Header";
+
 function App() {
-  return <h1>App is working</h1>;
+  return (
+    <div>
+      <Header />
+      <Home />
+      <Projects />
+      <Contact />
+    </div>
+  );
 }
 
 export default App;
