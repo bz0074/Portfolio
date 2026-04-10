@@ -1,17 +1,5 @@
-import Home from "./pages/Home";
-import Projects from "./pages/Projects";
-import Contact from "./pages/Contact";
-import Resume from "./pages/Resume";
-
 function App() {
-  return (
-    <div>
-      <Home />
-      <Projects />
-      <Contact />
-      <Resume />
-    </div>
-  );
+  return <h1>App is working</h1>;
 }
 
 export default App;
