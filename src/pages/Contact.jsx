@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <section id="contact" style={{ padding: "60px" }}>
+    <section id="contact">
       <h2>Contact</h2>
       <p>Email: example@email.com</p>
       <p>Phone: +1 (000) 000-0000</p>
