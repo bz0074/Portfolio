@@ -1,10 +1,15 @@
+import profilePhoto from "../assets/images/profile.jpg";
+
 function Home() {
   return (
     <section id="home">
-      <h2>Hi, I'm Baidaho Zanre</h2>
-      <p>IT Graduate | Desktop Publisher | Aspiring IT Support & Systems Professional</p>
-      
-   <div className="hero-buttons">
+      <div className="hero-text">
+        <h2>Hi, I'm Baidaho Zanre</h2>
+        <p>
+          IT Graduate | Desktop Publisher | Aspiring IT Support & Systems Professional
+        </p>
+
+        <div className="hero-buttons">
           <a href="#projects" className="primary-btn">View My Work</a>
           <a href="#contact" className="secondary-btn">Contact Me</a>
         </div>
