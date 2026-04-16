@@ -1,16 +1,19 @@
+import Header from "./components/Header";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
-import Header from "./components/Header";
+import "./styles/App.css";
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
-      <Home />
-      <Projects />
-      <Contact />
-    </div>
+      <main>
+        <Home />
+        <Projects />
+        <Contact />
+      </main>
+    </>
   );
 }
 
