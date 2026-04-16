@@ -1,7 +1,7 @@
 function Home() {
   return (
-    <section id="home" style={{ padding: "60px" }}>
-      <h1>Hi, I'm Baidaho Zanre</h1>
+    <section id="home">
+      <h2>Hi, I'm Baidaho Zanre</h2>
       <p>IT Graduate | Desktop Publisher | Aspiring IT Support & Systems Professional</p>
     </section>
   );
