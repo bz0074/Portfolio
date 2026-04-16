@@ -4,12 +4,13 @@ function ThemeToggle() {
   const [dark, setDark] = useState(false);
 
   function toggleTheme() {
-    setDark(!dark);
-    document.body.classList.toggle("dark");
+    const nextDark = !dark;
+    setDark(nextDark);
+    document.body.classList.toggle("dark", nextDark);
   }
 
   return (
-    <button onClick={toggleTheme}>
+    <button type="button" onClick={toggleTheme}>
       {dark ? "Light Mode" : "Dark Mode"}
     </button>
   );
